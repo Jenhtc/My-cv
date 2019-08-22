@@ -1,0 +1,105 @@
+* {
+  border: 1px black solid;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+header {
+  /*   margin-top: 5%; */
+  background-color: #fab2af;
+  padding: 3%;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+main {
+  display: flex;
+  padding: 0% 3% 3% 3%;
+}
+.colonne {
+
+}
+
+.firstc {
+  flex:1;
+}
+.secondc {
+  flex: 2;
+}
+.photo:nth-child(1) {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.photo:nth-child(2) {
+  flex: 2;
+  margin-left: 30%;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.moi-photo {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+/* h1 {
+  margin-top: -20%;
+}
+ */
+
+}
+h2 {
+  margin-left: 8%;
+}
+#bubble {
+  width: 7%;
+  float: left;
+  margin-top: 5%;
+}
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+}
+ul li:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  padding-left: 12px;
+  margin-top: 5px;
+}
+ul li:first-child:before {
+  background-image: url(Pictures/smartphone.png);
+}
+ul li:nth-child(2):before {
+  background-image: url(Pictures/arroba.png);
+}
+ul li:nth-child(3):before {
+  background-image: url(Pictures/calendar.png);
+}
+ul li:nth-child(4):before {
+  background-image: url(Pictures/car.png);
+  /* .icons {
+  width: 20%;
+  flex-direction: column; */
+}
